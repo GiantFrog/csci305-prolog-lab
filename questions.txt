@@ -1,0 +1,55 @@
+Jay Van Alstyne
+CSCI 305 Prolog Lab
+
+1. X = 'King George VI'
+2. X = 'Queen Mary'
+3. X = 'King George V'
+4. X = 'King George V' ;
+X = 'Queen Mary'
+5. X = 'Prince William' ;
+X = 'Prince Henry'
+6. 	'Queen Elizabeth II' ;
+X = 'Princess Margaret'
+7. X = 'Prince Charles' ;
+X = 'Prince Andrew' ;
+X = 'Prince Edward'.
+8. X = 'Princess Anne'
+9. false.
+10. X = 'Catherine Middleton'
+11. X = 'Prince Charles' ;
+X = 'Lady Diana Spencer' ;
+X = 'Queen Elizabeth II' ;
+X = 'Prince Philip' ;
+X = 'King George VI' ;
+X = 'Lady Elizabeth Bowes-Lyon' ;
+X = 'King George V' ;
+X = 'Queen Mary' ;
+X = 'King Edward VII' ;
+X = 'Princess Alexandra of Denmark' ;
+X = 'Prince Albert' ;
+X = 'Queen Victoria'
+12. false.
+13. false.
+14. X = 'Queen Victoria' ;
+X = 'Princess Alexandra of Denmark' ;
+X = 'Queen Mary' ;
+X = 'Mrs Simpson' ;
+X = 'Lady Elizabeth Bowes-Lyon' ;
+X = 'Prince Albert' ;
+X = 'King Edward VII' ;
+X = 'King George V' ;
+X = 'King Edward VIII' ;
+X = 'King George VI' ;
+X = 'Prince Philip'
+15. X = 'King George V'
+
+EC1. false.
+EC2. false.
+Did you mean 'Prince Charles'? Either way, though, everything is false.
+
+16. Prolog makes sense to me. It's very unique, not just another C spin-off, and I can clearly see where it may excel, which I struggled with in ML. I really like how it can just figure things out based off of what it knows, without me having to give it a step-by-step breakdown.
+Using periods also feels very satisfying for some reason. Bam. It's a fact. Done.
+17. Uh, not much. I don't like that I can't have it /do/ anything in an order, like I'm used to thinking in programming, but there's literally every other language out there for that. Prolog seems like a nice supplement to my imperative language of choice.
+18. I did enjoy this lab. Prolog was fun. I wish we saw another practical application for inspiration, though. It seemed too short and simple. Also, the copy/pasting commands and outputs to answer 1-15 got a little tedious.
+19. I think 3 hours, at most, including questions.
+20. I really want to use Prolog again. I can see how it would be useful in AI, but it also seems like a good way to get information out of a sort of database. Say we make a Person class. Rather than hard-code in pointers to every relative, having Prolog figure things out seems more memory efficient. Can you do something like that?
