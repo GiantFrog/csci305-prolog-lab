@@ -43,9 +43,10 @@ X = 'King George VI' ;
 X = 'Prince Philip'
 15. X = 'King George V'
 
-EC1. false.
-EC2. false.
-Did you mean 'Prince Charles'? Either way, though, everything is false.
+EC1. X = 'Viscount Linley' ;
+X = 'Lady Sarah Chatto'
+EC2. X = 'Viscount Linley' ;
+X = 'Lady Sarah Chatto'
 
 16. Prolog makes sense to me. It's very unique, not just another C spin-off, and I can clearly see where it may excel, which I struggled with in ML. I really like how it can just figure things out based off of what it knows, without me having to give it a step-by-step breakdown.
 Using periods also feels very satisfying for some reason. Bam. It's a fact. Done.
