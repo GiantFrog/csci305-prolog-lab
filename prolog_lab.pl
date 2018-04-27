@@ -28,9 +28,13 @@ ancestor(A, D):- parent(A, D).
 ancestor(A, D):- parent(X, D), ancestor(A, X).
 descendant(D, A):- ancestor(A, D).
 
-%if the year you were born is is smaller, you are older.
-older(A, B):- born(A, Ayear), born(B, Byear), Ayear < Byear.
-younger(A, B):- born(A, Ayear), born(B, Byear), Ayear > Byear.
+%if you lived the most years, you are older.
+older(A, B):- born(A, Aborn), born(B, Bborn), died(A, Adied), died(B, Bdied), Adied-Aborn < Bdied-Bborn.
+younger(A, B):- born(A, Aborn), born(B, Bborn), died(A, Adied), died(B, Bdied), Adied-Aborn > Bdied-Bborn.
+%if they haven't died yet, use 2018 for current age.
+older(A, B):- born(A, Aborn), born(B, Bborn), 2018-Aborn < 2018-Bborn.
+younger(A, B):- born(A, Aborn), born(B, Bborn), 2018-Aborn > 2018-Bborn.
+
 %if the Year B was born in is >= A's start of rule, and <= their end of rule, then true!
 regentWhenBorn(A, B):- reigned(A, Inherited, Resigned), born(B, Y), Inherited =< Y, Y =< Resigned.
 
