@@ -30,9 +30,9 @@ descendant(D, A):- ancestor(A, D).
 
 %if you lived the most years, you are older.
 older(A, B):- born(A, Aborn), born(B, Bborn), died(A, Adied), died(B, Bdied), Adied-Aborn < Bdied-Bborn.
-younger(A, B):- born(A, Aborn), born(B, Bborn), died(A, Adied), died(B, Bdied), Adied-Aborn > Bdied-Bborn.
 %if they haven't died yet, use 2018 for current age.
 older(A, B):- born(A, Aborn), born(B, Bborn), 2018-Aborn < 2018-Bborn.
+younger(A, B):- born(A, Aborn), born(B, Bborn), died(A, Adied), died(B, Bdied), Adied-Aborn > Bdied-Bborn.
 younger(A, B):- born(A, Aborn), born(B, Bborn), 2018-Aborn > 2018-Bborn.
 
 %if the Year B was born in is >= A's start of rule, and <= their end of rule, then true!

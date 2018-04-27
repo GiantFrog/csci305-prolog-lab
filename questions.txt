@@ -29,18 +29,21 @@ X = 'Princess Alexandra of Denmark' ;
 X = 'Prince Albert' ;
 X = 'Queen Victoria'
 12. false.
-13. false.
-14. X = 'Queen Victoria' ;
-X = 'Princess Alexandra of Denmark' ;
-X = 'Queen Mary' ;
-X = 'Mrs Simpson' ;
-X = 'Lady Elizabeth Bowes-Lyon' ;
-X = 'Prince Albert' ;
-X = 'King Edward VII' ;
-X = 'King George V' ;
-X = 'King Edward VIII' ;
-X = 'King George VI' ;
-X = 'Prince Philip'
+13. true.
+14. X = 'Princess Margaret' ;
+X = 'Lady Diana Spencer' ;
+X = 'Princess Anne' ;
+X = 'Catherine Middleton' ;
+X = 'Prince Charles' ;
+X = 'Prince Andrew' ;
+X = 'Prince Edward' ;
+X = 'Prince William' ;
+X = 'Prince Henry' ;
+X = 'Prince George' ;
+X = 'Princess Charlotte' ;
+X = 'Viscount Linley' ;
+X = 'Lady Sarah Chatto' ;
+X = 'Antony Armstrong-Jones'.
 15. X = 'King George V'
 
 EC1. X = 'Viscount Linley' ;
